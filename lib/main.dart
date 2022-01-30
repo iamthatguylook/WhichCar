@@ -7,6 +7,7 @@ void main() {
 }
 
 class landingPage extends StatelessWidget {
+  //StatelessWidget for landing page
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
