@@ -1,13 +1,12 @@
 # whichcar
 
-A new Flutter project.
+Mobile app that would detect model and car company using AI also link to official site for purchasing the car.
 
-## Getting Started
+#login form
 
-This project is a starting point for a Flutter application.
+![image](https://user-images.githubusercontent.com/70969669/151714719-ee1f9565-2a8e-4c89-8675-d47cc3580a38.png)
 
-A few resources to get you started if this is your first Flutter project:
-
+#documentation
 - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
