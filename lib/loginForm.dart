@@ -60,6 +60,7 @@ class loginForm extends StatelessWidget {
                       style: TextStyle(
                         color: Colors.blue,
                         fontSize: 11,
+                        decoration: TextDecoration.underline,
                       ),
                     ),
                   ),
