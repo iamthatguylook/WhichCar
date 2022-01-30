@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'displayLogo.dart';
+import 'loginForm.dart';
 
 void main() {
   runApp(landingPage());
@@ -21,9 +22,11 @@ class landingPage extends StatelessWidget {
               )),
         ),
         body: Center(
-          child: Column(
-            children: <Widget>[logo(), Text('HEllo')],
-          ),
+          child: Column(children: <Widget>[
+            Expanded(
+              child: ListView(children: [logo(), loginForm()]),
+            ),
+          ]),
         ),
       ),
     );
