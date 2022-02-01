@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'customAppbar.dart';
+import 'main.dart';
 
 class loginForm extends StatelessWidget {
   @override
@@ -12,7 +14,7 @@ class loginForm extends StatelessWidget {
               border: OutlineInputBorder(
                 borderRadius: BorderRadius.all(Radius.circular(30)),
               ),
-              hintText: 'Enter Username Details',
+              labelText: 'Enter Username Details',
             ),
           ),
         ),
@@ -42,7 +44,7 @@ class loginForm extends StatelessWidget {
                 style: TextStyle(color: Colors.white, fontSize: 16),
               ),
             ),
-            onPressed: () => {print('login')},
+            onPressed: () => {print('here')},
           ),
         ),
         Container(
