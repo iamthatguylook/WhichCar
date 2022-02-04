@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'assets/Logo.dart';
 import 'pages/LoginPage.dart';
+import 'pages/DetectPage.dart';
 
 void main() {
   runApp(MainPage());
@@ -13,9 +14,10 @@ class MainPage extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         themeMode: ThemeMode.light,
-        initialRoute: "/home",
+        initialRoute: "/Home",
         routes: {
-          "/home": (context) => LoginPage(),
+          "/Home": (context) => LoginPage(),
+          "/Detect": (context) => DetectPage(),
         });
   }
 }

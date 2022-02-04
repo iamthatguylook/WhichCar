@@ -9,7 +9,7 @@ class LoginPage extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        appBar: appBar("Login"),
+        appBar: CustomAppBar("Login"),
         backgroundColor: Colors.white,
         body: ListView(children: [
           logo(), //Importing logo object to add logo to the page
@@ -56,6 +56,7 @@ class LoginPage extends StatelessWidget {
                   ),
                   onPressed: () => {
                     print('next page'),
+                    Navigator.pushNamed(context, '/Detect')
                   },
                 ),
               ),
@@ -78,7 +79,9 @@ class LoginPage extends StatelessWidget {
                             ),
                           ),
                         ),
-                        onPressed: () => {print('make an account')},
+                        onPressed: () => {
+                          print('make an account'),
+                        },
                       ),
                     ),
                   ],
