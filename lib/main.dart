@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:whichcar/pages/SignupPage.dart';
 import 'assets/Logo.dart';
 import 'pages/LoginPage.dart';
 import 'pages/DetectPage.dart';
@@ -18,6 +19,7 @@ class MainPage extends StatelessWidget {
         routes: {
           "/Home": (context) => LoginPage(),
           "/Detect": (context) => DetectPage(),
+          "/SignUp": (context) => SignupPage(),
         });
   }
 }

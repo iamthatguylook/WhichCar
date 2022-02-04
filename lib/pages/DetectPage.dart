@@ -14,7 +14,7 @@ class DetectPage extends StatelessWidget {
             Center(
           child: ElevatedButton(
             child: const Text(
-              'Button',
+              'Camera',
               style: TextStyle(fontSize: 24),
             ),
             style: ElevatedButton.styleFrom(
