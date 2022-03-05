@@ -13,10 +13,7 @@ class DetectPage extends StatelessWidget {
             //Importing logo object to add logo to the page
             Center(
           child: ElevatedButton(
-            child: const Text(
-              'Camera',
-              style: TextStyle(fontSize: 24),
-            ),
+            child: const Icon(Icons.camera_alt),
             style: ElevatedButton.styleFrom(
                 fixedSize: const Size(200, 200),
                 shadowColor: Colors.red,
@@ -27,6 +24,7 @@ class DetectPage extends StatelessWidget {
             onPressed: () {},
             onLongPress: () {
               print('how are you');
+              Navigator.pushNamed(context, '/Camera');
             },
           ),
         ),
